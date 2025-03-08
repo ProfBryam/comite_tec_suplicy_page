@@ -84,9 +84,10 @@ ul {
     opacity: 0;
   }
 }
+/*somente mudar codigo do css aqui, aqui são variaves, esperar logo pra pegar o tom certo*/
 :root {
   --ztc-text-text-1: #fff;
-  --ztc-text-text-2: #AEE929;
+  --ztc-text-text-2: #AEE929;    
   --ztc-text-text-3: #04060C;
   --ztc-text-text-4: #282C34;
   --ztc-text-text-5: #181A1F;
