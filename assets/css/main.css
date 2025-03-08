@@ -14757,14 +14757,16 @@ Location:
 .overlay .preloader .logo {
   animation-delay: 0.5s;
   display: block;
-  width: 80px;
-  margin: 0px auto;
+  width: 800px; /* Ajuste o tamanho conforme necessário */
+  height: 800px; /* Define a altura proporcional */
+  margin: 0 auto;
   text-align: center;
   background: transparent url(../img/logo/logo1.png) no-repeat center center;
-  background-size: contain;
+  background-size: contain; /* Mantém a proporção da imagem */
   text-indent: -99999px;
   padding: 5px;
 }
+
 .overlay .preloader .logo.fade-out {
   position: relative;
   animation-name: animation-8;
