@@ -87,12 +87,12 @@ ul {
 /*somente mudar codigo do css aqui, aqui são variaves, esperar logo pra pegar o tom certo*/
 :root {
   --ztc-text-text-1: #fff;
-  --ztc-text-text-2: #AEE929;    
+  --ztc-text-text-2: #074C6D;    
   --ztc-text-text-3: #04060C;
   --ztc-text-text-4: #282C34;
   --ztc-text-text-5: #181A1F;
   --ztc-text-text-6: #1c1d20;
-  --ztc-text-text-7: #b3ff00;
+  --ztc-text-text-7: #074C6D;
   --ztc-text-text-8: #5D626F;
   --ztc-text-text-9: #FD6004;
   --ztc-text-text-10: #252D34;
@@ -103,12 +103,12 @@ ul {
   --ztc-bg-bg-4: #111218;
   --ztc-bg-hedaer-bg: #161616;
   --ztc-bg-bg-5: #2D2E34;
-  --ztc-bg-bg6: #69CA48;
+  --ztc-bg-bg6: #074C6D;
   --ztc-bg-bg7: #DAE0DE;
   --ztc-bg-bg8: #13151B;
   --ztc-bg-bg9: #1C1E24;
   --ztc-bg-bg10: #25272D;
-  --ztc-bg-bg11: #56CD55;
+  --ztc-bg-bg11: #074C6D;
   --ztc-bg-bg12: #F0F0F0;
   --ztc-bg-bg13: #F4F4F6;
   --ztc-bg-main-bg: var(--Gradient-Color, linear-gradient(90deg, #FF4308 0%, #FB8500 100%));
@@ -117,8 +117,8 @@ ul {
   --ztc-bg-bg15: #FD8735;
   --ztc-bg-bg16: #FFECE6;
   --ztc-bg-bg17: #FE8037;
-  --ztc-bg-bg18: #31512A;
-  --ztc-bg-bg19: #77E04E;
+  --ztc-bg-bg18: #074C6D;
+  --ztc-bg-bg19: #074C6D;
   --ztc-bg-bg20: #FED2B3;
   --ztc-bg-bg21: #FD721D;
   --ztc-bg-bg22: #FB8C1A;
@@ -128,8 +128,8 @@ ul {
   --ztc-border-border-1: #262D35;
   --ztc-border-border-2: #292A2F;
   --ztc-border-border-3: #664626;
-  --ztc-border-border-4: #62CB4D;
-  --ztc-border-border-5: #4FB84C;
+  --ztc-border-border-4: #074C6D;
+  --ztc-border-border-5: #074C6D;
   --ztc-border-border-6: #FE5C05;
   --ztc-border-border-7: #FD6E1E;
   --ztc-font-size-font-s10: 10px;
@@ -303,7 +303,7 @@ Location:
   transition: all 0.4s;
   margin-top: 32px;
   text-transform: uppercase;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
 }
 .btn-area .download-btn img {
   margin: -11px 4px 0 0;
@@ -318,7 +318,7 @@ Location:
   z-index: -1;
   border-radius: 4px;
   transition: all 0.4s;
-  background: var(--Button-Gradient, linear-gradient(90deg, #D9D314 0%, #2CE97A 90%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #769CAE 0%, #074C6D 90%));
 }
 .btn-area .download-btn:hover {
   transform: translateY(-5px);
@@ -333,7 +333,7 @@ Location:
   font-size: var(--ztc-font-size-font-s16);
   font-weight: var(--ztc-weight-bold);
   line-height: var(--ztc-font-size-font-s16);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -352,7 +352,7 @@ Location:
   display: block;
   width: 40px;
   height: 40px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   border-radius: 50%;
   animation: pulse-border 1500ms ease-out infinite;
 }
@@ -381,7 +381,7 @@ Location:
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   display: inline-block;
   color: var(--ztc-text-text-3);
   position: absolute;
@@ -396,7 +396,7 @@ Location:
   font-size: var(--ztc-font-size-font-s16);
   font-weight: var(--ztc-weight-bold);
   line-height: var(--ztc-font-size-font-s16);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg,  #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -415,7 +415,7 @@ Location:
   display: block;
   width: 40px;
   height: 40px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   border-radius: 50%;
   animation: pulse-border 1500ms ease-out infinite;
 }
@@ -447,7 +447,7 @@ Location:
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg,  #074C6D 0%, #769CAE 100%));
   display: inline-block;
   color: var(--ztc-text-text-3);
   position: absolute;
@@ -769,7 +769,7 @@ Location:
   width: 40px;
   text-align: center;
   border-radius: 50%;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   color: var(--ztc-text-text-3);
 }
 
@@ -923,7 +923,7 @@ Location:
   width: 40px;
   text-align: center;
   border-radius: 50%;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg,#074C6D 0%, #769CAE 100%));
   color: var(--ztc-text-text-3);
 }
 
@@ -1018,7 +1018,7 @@ Location:
   font-size: var(--ztc-font-size-font-s20);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg,#074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1073,7 +1073,7 @@ Location:
 }
 .homepage1-body .service1-section-area .service-header-area .pbmit-heading-subheading span.marketer {
   margin-top: 16px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg,#074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1956,7 +1956,7 @@ Location:
   font-size: var(--ztc-font-size-font-s20);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2011,7 +2011,7 @@ Location:
 }
 .homepage1-body.rtl1-body .service1-section-area .service-header-area .pbmit-heading-subheading span.marketer {
   margin-top: 16px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2996,7 +2996,7 @@ Location:
   line-height: var(--ztc-font-size-font-s48);
   -webkit-background-clip: text;
           background-clip: text;
-  background-image: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background-image: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   color: var(--ztc-text-text-3);
   -webkit-text-stroke-color: transparent;
   -webkit-text-stroke-width: 0.0625em;
@@ -3089,7 +3089,7 @@ Location:
   font-size: var(--ztc-font-size-font-s20);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -3162,7 +3162,7 @@ Location:
 }
 .homepage1-body .about-section-area .about-textarea .pbmit-heading-subheading span.marketer {
   margin-top: 24px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -3801,7 +3801,7 @@ Location:
   line-height: var(--ztc-font-size-font-s48);
   -webkit-background-clip: text;
           background-clip: text;
-  background-image: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background-image: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   color: var(--ztc-text-text-3);
   -webkit-text-stroke-color: transparent;
   -webkit-text-stroke-width: 0.0625em;
@@ -3894,7 +3894,7 @@ Location:
   font-size: var(--ztc-font-size-font-s20);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -3967,7 +3967,7 @@ Location:
 }
 .homepage1-body.rtl1-body .about-section-area .about-textarea .pbmit-heading-subheading span.marketer {
   margin-top: 24px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg,#074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -4533,7 +4533,7 @@ Location:
   font-size: var(--ztc-font-size-font-s20);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -4588,7 +4588,7 @@ Location:
 }
 .homepage1-body .skills-section-area .skills-header-area .pbmit-heading-subheading span.marketer {
   margin-top: 16px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg,#074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -4815,7 +4815,7 @@ Location:
   margin-top: -30px;
   z-index: 2;
   transition: all 0.4s;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
 }
 @media (max-width: 767px) {
   .homepage1-body .skills-section-area .all-boxes-area .skils-auhtor-area .skills-all-boxarea .percent {
@@ -5343,7 +5343,7 @@ Location:
   font-size: var(--ztc-font-size-font-s20);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -5398,7 +5398,7 @@ Location:
 }
 .homepage1-body.rtl1-body .skills-section-area .skills-header-area .pbmit-heading-subheading span.marketer {
   margin-top: 16px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg,#074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -5643,7 +5643,7 @@ Location:
   margin-top: -30px;
   z-index: 2;
   transition: all 0.4s;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
 }
 @media (max-width: 767px) {
   .homepage1-body.rtl1-body .skills-section-area .all-boxes-area .skils-auhtor-area .skills-all-boxarea .percent {
@@ -6192,7 +6192,7 @@ Location:
   font-size: var(--ztc-font-size-font-s20);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -6246,7 +6246,7 @@ Location:
 }
 .homepage1-body .portfolio-section-area .portfolio-header-area .pbmit-heading-subheading span.marketer {
   margin-top: 16px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -6431,7 +6431,7 @@ Location:
   font-size: var(--ztc-font-size-font-s16);
   line-height: var(--ztc-font-size-font-s16);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -6773,7 +6773,7 @@ Location:
   font-size: var(--ztc-font-size-font-s20);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -6827,7 +6827,7 @@ Location:
 }
 .homepage1-body.rtl1-body .portfolio-section-area .portfolio-header-area .pbmit-heading-subheading span.marketer {
   margin-top: 16px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -7013,7 +7013,7 @@ Location:
   font-size: var(--ztc-font-size-font-s16);
   line-height: var(--ztc-font-size-font-s16);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -7343,7 +7343,7 @@ Location:
   font-size: var(--ztc-font-size-font-s20);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -7397,7 +7397,7 @@ Location:
 }
 .homepage1-body .testimonial-section-area .testimonial-header-area .pbmit-heading-subheading span.marketer {
   margin-top: 16px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -7559,7 +7559,7 @@ Location:
   line-height: var(--ztc-font-size-font-s16);
   font-weight: var(--ztc-weight-bold);
   text-transform: uppercase;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -7572,7 +7572,7 @@ Location:
   content: "";
   height: 1px;
   width: 100%;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   left: 0;
   bottom: 0;
 }
@@ -7603,7 +7603,7 @@ Location:
 .homepage1-body .testimonial-section-area .testimonial-box-area .testimonial-content .owl-nav button::after {
   position: absolute;
   content: "";
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   color: var(--ztc-text-text-3);
   transition: all 0.4s;
   height: 100%;
@@ -7944,7 +7944,7 @@ Location:
   font-size: var(--ztc-font-size-font-s20);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -7998,7 +7998,7 @@ Location:
 }
 .homepage1-body.rtl1-body .testimonial-section-area .testimonial-header-area .pbmit-heading-subheading span.marketer {
   margin-top: 16px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -8161,7 +8161,7 @@ Location:
   line-height: var(--ztc-font-size-font-s16);
   font-weight: var(--ztc-weight-bold);
   text-transform: uppercase;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -8174,7 +8174,7 @@ Location:
   content: "";
   height: 1px;
   width: 100%;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   left: 0;
   bottom: 0;
 }
@@ -8206,7 +8206,7 @@ Location:
 .homepage1-body.rtl1-body .testimonial-section-area .testimonial-box-area .testimonial-content .owl-nav button::after {
   position: absolute;
   content: "";
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   color: var(--ztc-text-text-3);
   transition: all 0.4s;
   height: 100%;
@@ -8552,7 +8552,7 @@ Location:
   font-size: var(--ztc-font-size-font-s20);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -8609,7 +8609,7 @@ Location:
 }
 .blog-section-area .blog-header-area .pbmit-heading-subheading span.marketer {
   margin-top: 16px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -8834,7 +8834,7 @@ Location:
   margin-bottom: 20px;
 }
 .blog-section-area .blog-box-area .content-area a.readmore {
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -9193,7 +9193,7 @@ Location:
   font-size: var(--ztc-font-size-font-s20);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -9253,7 +9253,7 @@ Location:
 }
 .homepage1-body.rtl1-body .blog-section-area .blog-header-area .pbmit-heading-subheading span.marketer {
   margin-top: 16px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -9479,7 +9479,7 @@ Location:
   margin-bottom: 20px;
 }
 .homepage1-body.rtl1-body .blog-section-area .blog-box-area .content-area a.readmore {
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -10013,7 +10013,7 @@ Location:
   font-size: var(--ztc-font-size-font-s20);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -10067,7 +10067,7 @@ Location:
 }
 .homepage1-body .contact-section-area .contact-header-area .contact-text-area .pbmit-heading-subheading span.marketer {
   margin-top: 16px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -11155,7 +11155,7 @@ Location:
   font-size: var(--ztc-font-size-font-s20);
   line-height: var(--ztc-font-size-font-s20);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -11209,7 +11209,7 @@ Location:
 }
 .homepage1-body.rtl1-body .contact-section-area .contact-header-area .contact-text-area .pbmit-heading-subheading span.marketer {
   margin-top: 16px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -12210,7 +12210,7 @@ Location:
 }
 .homepage1-body .header-section-area .header-textarea .pbmit-heading-subheading span.marketer {
   margin-top: 30px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -12358,7 +12358,7 @@ Location:
   top: 0;
   z-index: -1;
   transition: all 0.4s;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   border-radius: 4px;
 }
 .homepage1-body .header-section-area .header-textarea .header-pera-area .socila-links-area ul li a:hover {
@@ -12438,8 +12438,10 @@ Location:
 }
 .homepage1-body .header-section-area .pbmit-animation-style3 .progress-one_leftbox .side-bg3 {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 105px;
+  left: -30px;
+  width: 35vw;
+  height: 35vw;
 }
 @media (max-width: 767px) {
   .homepage1-body .header-section-area .pbmit-animation-style3 .progress-one_leftbox .side-bg3 {
@@ -12495,7 +12497,7 @@ Location:
   content: "";
   height: 100%;
   width: 0;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   left: 0;
   top: 0;
   z-index: -1;
@@ -12981,7 +12983,7 @@ Location:
   line-height: var(--ztc-font-size-font-s90);
   font-size: var(--ztc-font-size-font-s70);
   text-transform: uppercase;
-  background-image: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background-image: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -13028,7 +13030,7 @@ Location:
   width: 210px;
   right: 0;
   top: 0;
-  background: #5EEE06;
+  background: #074C6D;
   filter: blur(27px);
   z-index: -1;
   animation-name: preview;
@@ -13162,7 +13164,7 @@ Location:
 }
 .homepage1-body.rtl1-body .header-section-area .header-textarea .pbmit-heading-subheading span.marketer {
   margin-top: 30px;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -13313,7 +13315,7 @@ Location:
   top: 0;
   z-index: -1;
   transition: all 0.4s;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   border-radius: 4px;
 }
 .homepage1-body.rtl1-body .header-section-area .header-textarea .header-pera-area .socila-links-area ul li a:hover {
@@ -13450,7 +13452,7 @@ Location:
   content: "";
   height: 100%;
   width: 0;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   left: 0;
   top: 0;
   z-index: -1;
@@ -14026,7 +14028,7 @@ Location:
   content: "";
   height: 100%;
   width: 100%;
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   left: 0;
   top: 0;
   opacity: 0.2;
@@ -14038,7 +14040,7 @@ Location:
   font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s18);
   font-weight: var(--ztc-weight-medium);
-  background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+  background: var(--Button-Gradient, linear-gradient(90deg, #074C6D 0%, #769CAE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -14757,8 +14759,8 @@ Location:
 .overlay .preloader .logo {
   animation-delay: 0.5s;
   display: block;
-  width: 800px; /* Ajuste o tamanho conforme necessário */
-  height: 800px; /* Define a altura proporcional */
+  width: 9000px; /* Ajuste o tamanho conforme necessário */
+  height: 9000px; /* Define a altura proporcional */
   margin: 0 auto;
   text-align: center;
   background: transparent url(../img/logo/logo1.png) no-repeat center center;
