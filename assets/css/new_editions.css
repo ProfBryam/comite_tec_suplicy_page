@@ -1,0 +1,14 @@
+.homepage1-body .about-section-area .about-boxareas .about-boxarea{
+    cursor: pointer;
+}
+
+.homepage1-body .about-section-area .about-boxareas .about-boxarea .eletro_button,
+.homepage1-body .about-section-area .about-boxareas .about-boxarea .marketing_button,
+.homepage1-body .about-section-area .about-boxareas .about-boxarea .system_button {
+    position: absolute;
+    left: 23px;
+    top: 13px;
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
