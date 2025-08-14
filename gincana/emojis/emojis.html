@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emojis Gigantes</title>
+    <style>
+        /*
+         * Reset básico e configuração do corpo da página.
+         * Usamos Flexbox para centralizar o nosso conteúdo
+         * tanto na vertical quanto na horizontal.
+        */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
+            margin: 0;
+            background-color: #f0f8ff; /* Um fundo azul claro suave */
+            font-family: sans-serif;
+        }
+
+        /*
+         * Estilo para o nosso parágrafo que contém os emojis.
+        */
+        .container-emojis {
+            /* A propriedade principal para deixar os emojis grandes */
+            font-size: 8rem; /* Use rem, vw, ou px. 8rem é bem grande! */
+            
+            /* Estilos extras para um visual mais agradável */
+            background-color: #ffffff;
+            padding: 2rem 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            
+            /* Adiciona um pequeno espaço entre os emojis */
+            letter-spacing: 0.5rem; 
+        }
+    </style>
+</head>
+<body>
+
+    <p class="container-emojis">⚽💍🚢🦛🐘⛪🐭🦴</p>
+
+</body>
+</html>
